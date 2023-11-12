@@ -10,7 +10,12 @@ Changelog follow https://keepachangelog.com/ format.
 
 *   `ecolab`:
     *   Added protobuf repeated fields support to `ecolab.inspect`
-    *   Fixed auto-display when the line contain UTF-8 character
+    *   `ecolab.auto_display`:
+        *   Support specifiers to customize auto-display (`;s`, `;a`, `;i`,...)
+        *   Fixed auto-display when the line contain UTF-8 character
+*   `epy`:
+    *   `epy.lazy_imports()` support adhoc imports (will re-create the original
+        `ecolab.adhoc` context when resolved)
 
 ## [1.5.2] - 2023-10-24
 
